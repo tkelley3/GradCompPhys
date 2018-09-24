@@ -24,7 +24,7 @@ def rk2(func,a=0,b=10,N=20):
     pyl.show()
     return xpoints
 
-def rk4(x0=0,a=0,b=10,N=20,):
+def rk4(func,a=0,b=10,N=20,):
     h = (b-a)/N
 
     tpoints = arange(a,b,h)
