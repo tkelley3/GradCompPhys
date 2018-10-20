@@ -9,7 +9,7 @@ end
 if nargin==1
    theta0 = pi/2;
    thetad0=0;
-   grph=0;
+   grph=1;
 end
 if nargin==2
     thetad0 = 0;
