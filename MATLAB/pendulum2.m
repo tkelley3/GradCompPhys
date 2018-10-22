@@ -78,7 +78,7 @@ end
 
 function [value,isterminal,direction] = events(t,w,omega0,gamma)
 % Locate the time when the angle is < 0.0001 
-value = int8(w(1)<0.0001 & w(2)<w(1)*omega0);     % detect angle = 0.0001
+value = int8(abs(w(1))<0.0001 & abs(w(2))<abs(w(1))*omega0);     % detect angle = 0.0001
 isterminal = 1;   % stop the integration
 direction = 0;   %  direction
 end
