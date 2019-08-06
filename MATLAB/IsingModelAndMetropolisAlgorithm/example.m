@@ -1,1 +1,0 @@
-openExample('nnet/TrainABasicConvolutionalNeuralNetworkForClassificationExample')
